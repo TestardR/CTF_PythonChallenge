@@ -13,3 +13,19 @@ i hope you didnt translate it by hand. thats what computers are for. doing it in
 using string.maketrans() is recommended. now apply on the url.
 // apply to the url, we get:
 ocr
+http://www.pythonchallenge.com/pc/def/ocr.html
+
+lvl 2 --> lvl 3
+// The point of this level is to select data among a mass of it.
+// After data isolation : 
+comments = re.findall("<!--(.*?)-->", html, re.DOTALL)
+// We worked on the selection of rare occurences
+count = {}
+for c in data:
+    count[c] = count.get(c, 0) + 1
+
+print(count)
+// To order data for more visibility :
+ordered = "".join(re.findall("[A-Za-z]", data))
+// 
+equality
