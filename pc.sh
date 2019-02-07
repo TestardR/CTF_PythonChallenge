@@ -6,3 +6,10 @@ http://www.pythonchallenge.com/pc/def/1.html
 http://www.pythonchallenge.com/pc/def/274877906944.html
 
 lvl 1 --> lvl 2
+// the point of this level is to make use of .maketrans()
+// give gibrish we have to translate each letter to 2 steps 
+// We get :
+i hope you didnt translate it by hand. thats what computers are for. doing it in by hand is inefficient and thats why this text is so long.
+using string.maketrans() is recommended. now apply on the url.
+// apply to the url, we get:
+ocr
