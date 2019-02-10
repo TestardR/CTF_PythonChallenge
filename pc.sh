@@ -61,3 +61,4 @@ data = pickle.load(urlopen("http://www.pythonchallenge.com/pc/def/banner.p"))
 // We made a loop inside another loop to do so :
 for line in content:
     print("".join([key * value for key, value in line]))
+// channel.html
