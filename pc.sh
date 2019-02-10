@@ -87,3 +87,19 @@ print("".join(comments))
 // If you try http://www.pythonchallenge.com/pc/def/hockey.html, you will get
 its in the air. look at the letters.
 // oxygen
+
+
+lvl 7 --> lvl 8
+// Given an image with gray scale, we want to analyse to get the information to the next level
+// To do so we will make use of an image processing library Pillow
+// we can get the pixel by providing indeces:
+img.getpixel((0,0))
+(79, 92, 23, 255)
+// To get the grey scale, we can take the middle row of the pixels:
+row = [img.getpixel((x, img.height / 2)) for x in range(img.width)]
+// As you can tell, row has lots of duplicates, since each grey blocks width is larger than 1 pixel. If you do some 
+// manual counting, you know it is exactly 7 pixels wide, this should be the easiest way to de-dup:
+row = row[::7]
+// Since RGB is using a positive number in [0, 255] for each color, we can assume it represents a ASCII character
+// integrity
+
