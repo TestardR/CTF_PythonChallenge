@@ -103,3 +103,10 @@ row = row[::7]
 // Since RGB is using a positive number in [0, 255] for each color, we can assume it represents a ASCII character
 // integrity
 
+lvl 8 --> lvl 9
+// The point of this level is to make use of decompression library bzip2
+// Here are some clues that it is "bzip2"
+# .magic:16 = 'BZ' signature/magic number .version:8 = 'h' for Bzip2 ('H'uffman coding), '0' for Bzip1 (deprecated) .hundredkblocksize:8 = '1'..'9' block-size 100 kB-900 kB (uncompressed)
+// add a b before the file to make python aware that it is a byte file.
+// id: hyge
+// pw : file
