@@ -110,3 +110,8 @@ lvl 8 --> lvl 9
 // add a b before the file to make python aware that it is a byte file.
 // id: hyge
 // pw : file
+
+lvl 9 --> lvl 10
+// The point of this level is to draw iamges according to data stored in the source code
+// Use Pillow / PIL library to make use of it
+// bull.html
