@@ -51,3 +51,13 @@ and the next nothing is 44827
 Change the url with the new number and another number will be given.
 To automate the process we had to create a while loop changing the value of num
 // peak.html
+
+lvl 5 --> lvl 6
+// This level makes you use 'pickle', which is Pythons object serializtion module
+// To load data using pickle to deserialize it:
+data = pickle.load(urlopen("http://www.pythonchallenge.com/pc/def/banner.p"))
+// We get a list of tuples but it does not look like a banner
+// We convert the repetitive characters to tuples of (charecters, number of appearance)
+// We made a loop inside another loop to do so :
+for line in content:
+    print("".join([key * value for key, value in line]))
