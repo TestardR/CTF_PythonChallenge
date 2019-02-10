@@ -26,10 +26,10 @@ while True:
         url + num).read().decode()
     print(content)
     match = pattern.search(content)
-    num = match.group(1)
     if match == None:
         break
-
+    num = match.group(1)
+    
 # and the next nothing is 16044
 # Yes. Divide by two and keep going.
 # peak.html

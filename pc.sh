@@ -62,3 +62,28 @@ data = pickle.load(urlopen("http://www.pythonchallenge.com/pc/def/banner.p"))
 for line in content:
     print("".join([key * value for key, value in line]))
 // channel.html
+
+lvl 6 --> lvl 7
+// http://www.pythonchallenge.com/pc/def/channel.html
+// change the url to :
+// http://www.pythonchallenge.com/pc/def/channel.zip
+// Unzip it. In readme.txt:
+welcome to my zipped list.
+
+hint1: start from 90052
+hint2: answer is inside the zip
+//
+// Same as in Python Challenge 4, loop through the file changing the files number
+// We get 
+Collect the comments.
+//
+// It turns out that zip file may contain some comments, and they can be accessed by:
+// ZipFile.comment: comment associated with the ZIP file.
+// ZipInfo.comment: comment for the individual archive member.
+//
+// Add this to the code :
+comments.append(f.getinfo(num + ".txt").comment.decode("utf-8"))
+print("".join(comments))
+// If you try http://www.pythonchallenge.com/pc/def/hockey.html, you will get
+its in the air. look at the letters.
+// oxygen
