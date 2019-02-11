@@ -125,3 +125,8 @@ lvl 11 --> lvl 12
 // Distinguishing pixels in terms of odd and even, we create a new image settings odd pixels color and odd position and viceversa for even pixels color 
 // We obtain a new image with evil written on it
 // evil.html
+
+lvl 12 --> lvl 13
+// The point of this level is to deal with bytes and produce images based on it
+// Take a look a the code
+// disproportional.html
