@@ -115,3 +115,7 @@ lvl 9 --> lvl 10
 // The point of this level is to draw iamges according to data stored in the source code
 // Use Pillow / PIL library to make use of it
 // bull.html
+
+lvl 10 --> lvl 11
+// The point of this level is to play around with a 'look_and_say sequence'
+// First solution, we tried to build a look allowing us to reproduce the sequence, it was laborious but it actually worked. 
