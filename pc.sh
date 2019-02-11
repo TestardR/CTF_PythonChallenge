@@ -119,3 +119,9 @@ lvl 9 --> lvl 10
 lvl 10 --> lvl 11
 // The point of this level is to play around with a 'look_and_say sequence'
 // First solution, we tried to build a look allowing us to reproduce the sequence, it was laborious but it actually worked. 
+
+lvl 11 --> lvl 12
+// The point of this level is to play around with images pixels
+// Distinguishing pixels in terms of odd and even, we create a new image settings odd pixels color and odd position and viceversa for even pixels color 
+// We obtain a new image with evil written on it
+// evil.html
