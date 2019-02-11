@@ -130,3 +130,11 @@ lvl 12 --> lvl 13
 // The point of this level is to deal with bytes and produce images based on it
 // Take a look a the code
 // disproportional.html
+
+lvl 13 --> lvl 14
+// The point of this level is to setup of a server using xmlrpc
+// rpc: Remote Procedure Call method that uses XML passed via HTTP as a transport
+// After playing around xmlrpc has the following API : ['phone', 'system.listMethods', 'system.methodHelp', 'system.methodSignature', 'system.multicall', 'system.getCapabilities']
+// Use phone and call Bert
+// 555-ITALY
+// italy.html
